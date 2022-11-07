@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+.cabecalho {
+    background-color: rgb(48, 172, 64);
+    display: flex;
+    min-height: 10vh;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    
+}
+
+.cabecalho img {
+    width: 9em;
+}
+
+.nome {
+    margin: 0px 0px 5px 0px;
+    color: rgb(22, 80, 22);
+}
+
+.logo-t {
+    background-color: white;
+    padding: 5px;
+    font-family: philosoper;
+}
+
+@font-face {
+    font-family: philosopher;
+    src: url(Philosopher-Regular.ttf);
+}
+
+#s {
+    width: 400px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+p {
+    margin: 2em 20em;
+}
+
+.dicas {
+    margin: 2em 20em;
+    list-style: none;
+}

@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     text-align: center;
+
 }
 
 .cabecalho {
@@ -8,7 +9,7 @@ body {
     display: flex;
     min-height: 10vh;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 5px;
     
@@ -35,9 +36,13 @@ body {
     border-radius: 16px;
     font-size: medium;
     background-color: white;
-border-color: rgb(22, 80, 22);
-color: rgb(22, 80, 22)
+    border-color: rgb(22, 80, 22);
+    color: rgb(22, 80, 22)
 }
+
+/* main {
+    display: grid;
+} */
 
 #s {
     width: 400px;
@@ -46,7 +51,8 @@ color: rgb(22, 80, 22)
 }
 
 p {
-    margin: 2em 20em;
+    margin: 2em 20%;
+    font-size: 30px;
 }
 
 .dicas {

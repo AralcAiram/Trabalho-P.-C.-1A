@@ -26,12 +26,17 @@ body {
 .logo-t {
     background-color: white;
     padding: 5px;
-    font-family: philosoper;
+
 }
 
-@font-face {
-    font-family: philosopher;
-    src: url(Philosopher-Regular.ttf);
+.home {
+    width: 12em;
+    height: 44px;
+    border-radius: 16px;
+    font-size: medium;
+    background-color: white;
+border-color: rgb(22, 80, 22);
+color: rgb(22, 80, 22)
 }
 
 #s {

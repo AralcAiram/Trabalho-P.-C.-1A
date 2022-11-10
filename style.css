@@ -37,7 +37,13 @@ body {
     font-size: medium;
     background-color: white;
     border-color: rgb(22, 80, 22);
-    color: rgb(22, 80, 22)
+    color: rgb(22, 80, 22);
+}
+
+.a :c {
+    border-color: rgb(29, 115, 29);
+    color: rgb(29, 115, 29);
+    padding: 2px 7px;
 }
 
 /* main {
@@ -50,12 +56,17 @@ body {
     border-radius: 10px;
 }
 
+.lixeira {
+    width: 26em;
+}
+
 p {
     margin: 2em 20%;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .dicas {
     margin: 2em 20em;
     list-style: none;
+    font-size: 22px;
 }

@@ -46,9 +46,25 @@ body {
     padding: 2px 7px;
 }
 
-/* main {
+.grid {
     display: grid;
-} */
+    grid-template-columns: auto auto;
+    margin: 3em 1em;
+    align-items: center;
+    gap: 2px;
+}
+
+.grid p {
+    text-align: start;
+}
+
+.dicas_e_img {
+    text-align: center;
+}
+
+.dicas_e_img li {
+    text-align: start;
+}
 
 #s {
     width: 400px;
@@ -66,7 +82,7 @@ p {
 }
 
 .dicas {
-    margin: 2em 20em;
+    margin: 2em auto 2em 16em;
     list-style: none;
     font-size: 22px;
 }
